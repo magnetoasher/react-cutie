@@ -15,13 +15,13 @@ const IceCream = ({ size, color, mood, className }) => (
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      <g id="kawaii-iceCream">
+      <g id="cutie-iceCream">
         <g fillRule="nonzero">
-          <path d={paths.stick} id="kawaii-iceCream__stick" fill="#FCCB7E" />
-          <path d={paths.shape} id="kawaii-iceCream__shape" fill={color} />
+          <path d={paths.stick} id="cutie-iceCream__stick" fill="#FCCB7E" />
+          <path d={paths.shape} id="cutie-iceCream__shape" fill={color} />
           <path
             d={paths.shadow}
-            id="kawaii-iceCream__shadow"
+            id="cutie-iceCream__shadow"
             fill="#000000"
             opacity=".1"
           />

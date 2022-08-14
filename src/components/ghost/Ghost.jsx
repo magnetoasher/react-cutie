@@ -14,12 +14,12 @@ const Ghost = ({ size, color, mood, className }) => (
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      <g id="kawaii-ghost">
-        <g id="kawaii-ghost__body">
-          <path d={paths.shape} id="kawaii-ghost__shape" fill={color} />
+      <g id="cutie-ghost">
+        <g id="cutie-ghost__body">
+          <path d={paths.shape} id="cutie-ghost__shape" fill={color} />
           <path
             d={paths.shadow}
-            id="kawaii-ghost__shadow"
+            id="cutie-ghost__shadow"
             fillOpacity=".1"
             fill="#000000"
           />

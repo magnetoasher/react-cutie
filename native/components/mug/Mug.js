@@ -15,12 +15,12 @@ const Mug = ({ size, color, mood, className }) => (
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      <G id="kawaii-mug">
-        <G id="kawaii-mug__body" fillRule="nonzero">
-          <Path d={paths.shape} id="kawaii-mug__shape" fill={color} />
+      <G id="cutie-mug">
+        <G id="cutie-mug__body" fillRule="nonzero">
+          <Path d={paths.shape} id="cutie-mug__shape" fill={color} />
           <Path
             d={paths.shadow}
-            id="kawaii-mug__shadow"
+            id="cutie-mug__shadow"
             fill="#000"
             opacity=".1"
           />

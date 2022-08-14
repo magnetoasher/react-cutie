@@ -15,12 +15,12 @@ const Browser = ({ size, color, mood, className }) => (
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      <G id="kawaii-browser">
-        <G id="kawaii-browser__body" fillRule="nonzero">
-          <Path d={paths.shape} id="kawaii-browser__shape" fill={color} />
+      <G id="cutie-browser">
+        <G id="cutie-browser__body" fillRule="nonzero">
+          <Path d={paths.shape} id="cutie-browser__shape" fill={color} />
           <Path
             d={paths.shadow}
-            id="kawaii-browser__shadow"
+            id="cutie-browser__shadow"
             fill="#121212"
             opacity=".1"
           />

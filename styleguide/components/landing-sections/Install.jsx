@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import remcalc from 'remcalc';
 import Section from '../common/Section';
 
-const codeString = 'npm i --save react-kawaii';
+const codeString = 'npm i --save react-cutie';
 
 const Code = styled.div`
   background: #2b3847;

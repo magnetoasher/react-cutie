@@ -22,7 +22,7 @@ const UseCases = () => (
         <Col md={8} className="text-center">
           <h1>For multiple scenarios</h1>
           <Text>
-            No more boring apps! The React Kawaii library was created with one
+            No more boring apps! The React Cutie library was created with one
             thing in mind, make your app fun and cute!
           </Text>
         </Col>
@@ -41,7 +41,7 @@ const UseCases = () => (
             error message!
           </Text>
           <Text>
-            You can use a React Kawaii and set the mood to sad and the user will
+            You can use a React Cutie and set the mood to sad and the user will
             feel engaged!
           </Text>
         </Col>
@@ -57,7 +57,7 @@ const UseCases = () => (
           </Text>
           <Text>
             Nothing can be more boring than just a screen with text! That's a
-            great opportunity to put a React Kawaii with a happy mood!
+            great opportunity to put a React Cutie with a happy mood!
           </Text>
         </Col>
         <Col md={12} lg={6}>

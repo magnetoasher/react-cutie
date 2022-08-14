@@ -1,7 +1,7 @@
 {
-  "name": "react-kawaii",
+  "name": "react-cutie",
   "version": "0.17.0",
-  "description": "React Kawaii is a library of cute SVG illustrations (react components). Ideal if you want to give some cuteness and personality to your react application.",
+  "description": "React Cutie is a library of cute SVG illustrations (react components). Ideal if you want to give some cuteness and personality to your react application.",
   "main": "lib/index.js",
   "module": "lib/es/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miukimiu/react-kawaii.git"
+    "url": "git+https://github.com/magnetoasher/react-cutie.git"
   },
   "keywords": [
     "library",
@@ -23,7 +23,7 @@
     "component",
     "svg",
     "illustration",
-    "kawaii",
+    "cutie",
     "icon",
     "ui",
     "animation",
@@ -36,9 +36,9 @@
   "author": "Miukimiu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/miukimiu/react-kawaii/issues"
+    "url": "https://github.com/magnetoasher/react-cutie/issues"
   },
-  "homepage": "https://github.com/miukimiu/react-kawaii#readme",
+  "homepage": "https://github.com/magnetoasher/react-cutie#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.0",

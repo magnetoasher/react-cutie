@@ -14,16 +14,16 @@ class PlanetAnimation extends Component {
       this.planetRef.current.querySelector('#Combined-Shape')
     );
     const tongue = styler(
-      this.planetRef.current.querySelector('#kawaii-face__tongue')
+      this.planetRef.current.querySelector('#cutie-face__tongue')
     );
     const eyeLeft = styler(
       this.planetRef.current.querySelector(
-        '#kawaii-face__eyes__arc path:first-child'
+        '#cutie-face__eyes__arc path:first-child'
       )
     );
     const eyeRight = styler(
       this.planetRef.current.querySelector(
-        '#kawaii-face__eyes__arc path:last-child'
+        '#cutie-face__eyes__arc path:last-child'
       )
     );
     const body = styler(this.planetRef.current.querySelector('svg'));

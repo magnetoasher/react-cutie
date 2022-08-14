@@ -17,35 +17,35 @@ const Planet = ({ size, color, mood, className }) => (
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
       <Defs>
-        <Path d={paths.shape} id="kawaii-planet__shape--path" />
-        <Path d={paths.shadow} id="kawaii-planet__shadow--path" />
+        <Path d={paths.shape} id="cutie-planet__shape--path" />
+        <Path d={paths.shadow} id="cutie-planet__shadow--path" />
       </Defs>
-      <G id="kawaii-planet">
-        <G id="kawaii-planet__body">
+      <G id="cutie-planet">
+        <G id="cutie-planet__body">
           <Mask id="mask-2" fill="#fff">
             <Use
-              xlinkHref="#kawaii-planet__shape--path"
-              href="#kawaii-planet__shape--path"
+              xlinkHref="#cutie-planet__shape--path"
+              href="#cutie-planet__shape--path"
             />
           </Mask>
           <Use
-            id="kawaii-planet__shape"
+            id="cutie-planet__shape"
             fill={color}
-            xlinkHref="#kawaii-planet__shape--path"
-            href="#kawaii-planet__shape--path"
+            xlinkHref="#cutie-planet__shape--path"
+            href="#cutie-planet__shape--path"
           />
           <Mask id="mask-4" fill="#fff">
             <Use
-              xlinkHref="#kawaii-planet__shadow--path"
-              href="#kawaii-planet__shadow--path"
+              xlinkHref="#cutie-planet__shadow--path"
+              href="#cutie-planet__shadow--path"
             />
           </Mask>
           <Use
-            id="kawaii-planet__shadow"
+            id="cutie-planet__shadow"
             fill="#000000"
             opacity=".1"
-            xlinkHref="#kawaii-planet__shadow--path"
-            href="#kawaii-planet__shadow--path"
+            xlinkHref="#cutie-planet__shadow--path"
+            href="#cutie-planet__shadow--path"
           />
         </G>
         <Face

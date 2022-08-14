@@ -7,12 +7,6 @@ import UseCases from './landing-sections/UseCases';
 
 const contributors = [
   {
-    name: 'Elizabet Oliveira',
-    githubUsername: 'miukimiu',
-    githubUrl: 'https://github.com/miukimiu',
-    imageUrl: 'https://avatars1.githubusercontent.com/u/2750668?s=460&v=4'
-  },
-  {
     name: 'Alicia Catalina',
     githubUsername: 'aliciacatalina',
     githubUrl: 'https://github.com/aliciacatalina',

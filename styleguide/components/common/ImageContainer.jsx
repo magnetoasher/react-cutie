@@ -13,7 +13,7 @@ const Container = styled.div`
     margin: ${remcalc(80)} 0 ${remcalc(80)};
   }
 
-  .kawaii-container {
+  .cutie-container {
     position: absolute;
   }
 
@@ -37,7 +37,7 @@ const UseCases = ({ children, start, end }) => {
     }
   ];
 
-  const AnimKawaii = [
+  const AnimCutie = [
     {
       start: start,
       end: end,
@@ -56,7 +56,7 @@ const UseCases = ({ children, start, end }) => {
       <Plx parallaxData={AnimBackCloud}>
         <img src={backCloud} />
       </Plx>
-      <Plx className="kawaii-container" parallaxData={AnimKawaii}>
+      <Plx className="cutie-container" parallaxData={AnimCutie}>
         {children}
       </Plx>
     </Container>

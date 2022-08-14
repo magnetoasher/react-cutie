@@ -143,7 +143,7 @@ export function SectionRenderer(allProps) {
   return (
     <React.Fragment>
       <GlobalStyles />
-      {slug === 'react-kawaii' ? (
+      {slug === 'react-cutie' ? (
         <LandingPage />
       ) : (
         <Wrapper>

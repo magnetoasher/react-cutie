@@ -20,12 +20,12 @@ const TesterDemos = () => (
         <Ul>
           <li>
             <a href="https://codesandbox.io/s/23rk7j098j">
-              Searching with a Kawaii Animation
+              Searching with a Cutie Animation
             </a>
           </li>
           <li>
             <a href="https://codesandbox.io/s/z397wo86p3">
-              Animating a Kawaii with Popmotion
+              Animating a Cutie with Popmotion
             </a>
           </li>
         </Ul>

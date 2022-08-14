@@ -13,10 +13,10 @@ const Cat = ({ size, color, mood, className }) => (
       height={size}
       viewBox="0 0 185 220"
     >
-      <g id="Kawaii-Builder" fill="none" fillRule="evenodd">
-        <g id="kawaii-cat">
+      <g id="Cutie-Builder" fill="none" fillRule="evenodd">
+        <g id="cutie-cat">
           <g
-            id="kawaii-cat_tail"
+            id="cutie-cat_tail"
             transform="translate(29.23 153.846)"
             fillRule="nonzero"
           >
@@ -33,15 +33,15 @@ const Cat = ({ size, color, mood, className }) => (
             />
           </g>
           <g
-            id="kawaii-cat_legs"
+            id="cutie-cat_legs"
             transform="translate(81 190)"
             fill={color}
             fillRule="nonzero"
           >
-            <path d={paths.legs} id="kawaii-cat_legs_inner" />
+            <path d={paths.legs} id="cutie-cat_legs_inner" />
           </g>
           <g
-            id="kawaii-cat_arms"
+            id="cutie-cat_arms"
             transform="translate(58 132)"
             fill={color}
             fillRule="nonzero"
@@ -50,7 +50,7 @@ const Cat = ({ size, color, mood, className }) => (
             <path d="M13.641.205s-27.949 51.641-2 53.898" />
           </g>
           <g
-            id="kawaii-cat_arms-shadow"
+            id="cutie-cat_arms-shadow"
             transform="translate(58 132)"
             fill="#121212"
             fillRule="nonzero"
@@ -61,12 +61,12 @@ const Cat = ({ size, color, mood, className }) => (
           </g>
           <path
             d={paths.body}
-            id="kawaii-cat_body"
+            id="cutie-cat_body"
             fill={color}
             fillRule="nonzero"
           />
           <g
-            id="kawaii-cat_ears"
+            id="cutie-cat_ears"
             transform="translate(34 23)"
             fill="#121212"
             fillRule="nonzero"
@@ -74,16 +74,16 @@ const Cat = ({ size, color, mood, className }) => (
           >
             <path
               d="M103.795 2.897s18.718-8.974 13.077 8.975"
-              id="kawaii-cat_ear-r"
+              id="cutie-cat_ear-r"
             />
             <path
               d="M14.923 2.538S-3.795-6.436 1.846 11.513"
-              id="kawaii-cat_ear-l"
+              id="cutie-cat_ear-l"
             />
           </g>
           <path
             d="M92.243 190.282h.004v-48.667h-.004c7.075-.36 11.946-2.615 11.946-2.615 16.709 54.254-11.62 51.324-11.946 51.282-.376.042-28.705 2.972-11.945-51.282 0 0 4.869 2.255 11.942 2.615z"
-            id="kawaii-cat_belly"
+            id="cutie-cat_belly"
             fill="#121212"
             fillRule="nonzero"
             opacity="0.25"
@@ -95,13 +95,13 @@ const Cat = ({ size, color, mood, className }) => (
           />
           <path
             d="M96.935 77.625c-.975-2.106-8.13-2.227-8.889 0-.47 1.458 2.746 4.454 4.372 4.373 1.663-.121 5.095-3.118 4.517-4.373z"
-            id="kawaii-cat_nose"
+            id="cutie-cat_nose"
             fill="#121212"
             fillRule="nonzero"
           />
           <path
             d={paths.shadow}
-            id="kawaii-cat_shadow"
+            id="cutie-cat_shadow"
             fill="#121212"
             fillRule="nonzero"
             opacity="0.1"

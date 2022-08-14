@@ -18,35 +18,35 @@ const SpeechBubble = ({ size, color, mood, className }) => (
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
       <Defs>
-        <Path d={paths.shape} id="kawaii-speechBubble__shape--path" />
-        <Path d={paths.shadow} id="kawaii-speechBubble__shadow--path" />
+        <Path d={paths.shape} id="cutie-speechBubble__shape--path" />
+        <Path d={paths.shadow} id="cutie-speechBubble__shadow--path" />
       </Defs>
-      <G id="Kawaii-speechBubble">
-        <G id="Kawaii-speechBubble__body">
+      <G id="Cutie-speechBubble">
+        <G id="Cutie-speechBubble__body">
           <Mask fill="#fff">
             <Use
-              xlinkHref="#kawaii-speechBubble__shape--path"
-              href="#kawaii-speechBubble__shape--path"
+              xlinkHref="#cutie-speechBubble__shape--path"
+              href="#cutie-speechBubble__shape--path"
             />
           </Mask>
           <Use
-            id="Kawaii-speechBubble__shape"
+            id="Cutie-speechBubble__shape"
             fill={color}
-            xlinkHref="#kawaii-speechBubble__shape--path"
-            href="#kawaii-speechBubble__shape--path"
+            xlinkHref="#cutie-speechBubble__shape--path"
+            href="#cutie-speechBubble__shape--path"
           />
           <Mask fill="#fff">
             <Use
-              xlinkHref="#kawaii-speechBubble__shadow--path"
-              href="#kawaii-speechBubble__shadow--path"
+              xlinkHref="#cutie-speechBubble__shadow--path"
+              href="#cutie-speechBubble__shadow--path"
             />
           </Mask>
           <Use
-            id="Kawaii-speechBubble__shadow"
+            id="cutie-speechBubble__shadow"
             fill="#000"
             opacity=".1"
-            xlinkHref="#kawaii-speechBubble__shadow--path"
-            href="#kawaii-speechBubble__shadow--path"
+            xlinkHref="#cutie-speechBubble__shadow--path"
+            href="#cutie-speechBubble__shadow--path"
           />
         </G>
         <Face

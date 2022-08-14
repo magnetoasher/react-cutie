@@ -3,7 +3,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import styled from 'styled-components';
 import remcalc from 'remcalc';
 import footerWave from '../assets/images/footer-wave.svg';
-import logo from '../assets/images/ReactKawaii-logo.svg';
+import logo from '../assets/images/Reactcutie-logo.svg';
 import twitter from '../assets/images/twitter.svg';
 import github from '../assets/images/github.svg';
 
@@ -64,21 +64,12 @@ export default () => (
           <img src={logo} />
         </Col>
         <Col xs={12} lg={6} className="text-right">
-          <Social href="https://twitter.com/miuki_miu">
+          <Social href="https://twitter.com/magnetoasher">
             <img src={twitter} />
           </Social>
-          <Social href="https://github.com/miukimiu/react-kawaii">
+          <Social href="https://github.com/magnetoasher/react-cutie">
             <img src={github} />
           </Social>
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={12} lg={6}>
-          Crafted by <a href="http://www.miukimiu.com/">Miuki Miu</a> {(new Date()).getFullYear()} MIT
-        </Col>
-        <Col xs={12} lg={6} className="text-right">
-          Generated with{' '}
-          <a href="https://react-styleguidist.js.org/">React Styleguidist</a>
         </Col>
       </Row>
     </Grid>

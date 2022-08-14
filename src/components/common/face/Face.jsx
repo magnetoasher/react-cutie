@@ -3,40 +3,40 @@ import PropTypes from 'prop-types';
 import paths from './paths';
 
 const Face = ({ mood, uniqueId, ...rest }) => (
-  <g id="kawaii-face" {...rest}>
+  <g id="cutie-face" {...rest}>
     <defs>
-      <path d={paths.defs} id="kawaii-face__path-1" />
+      <path d={paths.defs} id="cutie-face__path-1" />
     </defs>
-    <g id="kawaii-face__mouth" transform="translate(18.000000, 16.000000)">
+    <g id="cutie-face__mouth" transform="translate(18.000000, 16.000000)">
       {(mood === 'blissful' || mood === 'lovestruck' || mood === 'excited') && (
         <g
-          id="kawaii-face__mouth__joy"
+          id="cutie-face__mouth__joy"
           transform="translate(0.000000, 1.000000)"
         >
-          <mask id={`kawaii-face__mask-2-${uniqueId}`} fill="white">
-            <use xlinkHref="#kawaii-face__path-1" />
+          <mask id={`cutie-face__mask-2-${uniqueId}`} fill="white">
+            <use xlinkHref="#cutie-face__path-1" />
           </mask>
           <use
             id="Combined-Shape"
             fill="#000000"
-            xlinkHref="#kawaii-face__path-1"
+            xlinkHref="#cutie-face__path-1"
           />
           <path
             d={paths.tongue}
-            id="kawaii-face__tongue"
+            id="cutie-face__tongue"
             fill="#E74144"
-            mask={`url(#kawaii-face__mask-2-${uniqueId}`}
+            mask={`url(#cutie-face__mask-2-${uniqueId}`}
             transform="translate(15.000000, 11.431885) scale(1, -1)
             translate(-15.000000, -11.431885)"
           />
         </g>
       )}
       {mood === 'happy' && (
-        <path d={paths.happy} id="kawaii-face__mouth__happy" fill="#000000" />
+        <path d={paths.happy} id="cutie-face__mouth__happy" fill="#000000" />
       )}
       {mood === 'shocked' && (
         <ellipse
-          id="kawaii-face__mouth__shocked"
+          id="cutie-face__mouth__shocked"
           cx="15"
           cy="14"
           rx="9"
@@ -47,14 +47,14 @@ const Face = ({ mood, uniqueId, ...rest }) => (
       {(mood === 'sad' || mood === 'ko') && (
         <path
           d={paths.sad}
-          id="kawaii-face__mouth__sad"
+          id="cutie-face__mouth__sad"
           fill="#000000"
           transform="translate(14.999999, 5.500000) scale(1, -1) translate(-14.999999, -5.500000)"
         />
       )}
     </g>
     <g
-      id="kawaii-face__blush"
+      id="cutie-face__blush"
       transform="translate(0.000000, 15.000000)"
       fill="#000000"
       opacity="0.2"
@@ -63,13 +63,13 @@ const Face = ({ mood, uniqueId, ...rest }) => (
       <circle cx="63" cy="3" r="3" />
     </g>
     <g
-      id="kawaii-face__eyes"
+      id="cutie-face__eyes"
       transform="translate(2.000000, 0.000000)"
       fill="#000000"
     >
       {mood === 'blissful' && (
         <g
-          id="kawaii-face__eyes__arc"
+          id="cutie-face__eyes__arc"
           transform="translate(1.000000, 0.000000)"
         >
           <path d={paths.bliss1} />
@@ -81,7 +81,7 @@ const Face = ({ mood, uniqueId, ...rest }) => (
         mood === 'shocked' ||
         mood === 'excited') && (
         <g
-          id="kawaii-face__eyes__circle"
+          id="cutie-face__eyes__circle"
           transform="translate(1.000000, 2.000000)"
         >
           <circle cx="4.5" cy="4.5" r="4.5" />
@@ -90,7 +90,7 @@ const Face = ({ mood, uniqueId, ...rest }) => (
       )}
       {mood === 'lovestruck' && (
         <g
-          id="kawaii-face__eyes__heart"
+          id="cutie-face__eyes__heart"
           transform="translate(0.000000, 2.000000)"
           fillRule="nonzero"
         >
@@ -100,7 +100,7 @@ const Face = ({ mood, uniqueId, ...rest }) => (
       )}
       {mood === 'ko' && (
         <g
-          id="kawaii-face__eyes__ko"
+          id="cutie-face__eyes__ko"
           transform="translate(1.500000, 1.000000)"
           fillRule="nonzero"
         >

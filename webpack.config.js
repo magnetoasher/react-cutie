@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'lib'),
     filename: 'index.js',
-    library: ['react-kawaii'],
+    library: ['react-cutie'],
     libraryTarget: 'umd',
     publicPath: '/lib/',
     globalObject: `typeof self !== 'undefined' ? self : this`,

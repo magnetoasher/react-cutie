@@ -14,18 +14,18 @@ const SpeechBubble = ({ size, color, mood, className }) => (
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      <g id="Kawaii-Builder" fill="none" fillRule="evenodd">
-        <g id="Kawaii-speechBubble" transform="translate(-27 -57)">
-          <g id="kawaii-speechBubble" transform="translate(27 57)">
+      <g id="Cutie-Builder" fill="none" fillRule="evenodd">
+        <g id="Cutie-speechBubble" transform="translate(-27 -57)">
+          <g id="cutie-speechBubble" transform="translate(27 57)">
             <path
               d={paths.body}
-              id="kawaii-speechBubble_body"
+              id="cutie-speechBubble_body"
               fill={color}
               fillRule="nonzero"
             />
             <path
               d={paths.shadow}
-              id="kawaii-speechBubble_shadow"
+              id="cutie-speechBubble_shadow"
               fill="#121212"
               fillRule="nonzero"
               opacity="0.07"

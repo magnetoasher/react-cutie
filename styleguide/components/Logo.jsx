@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Styled from 'rsg-components/Styled';
-import logo from './assets/images/ReactKawaii-logo.svg';
+import logo from './assets/images/Cutie-logo.svg';
 
 const styles = ({ fontFamily, color }) => ({
   logo: {

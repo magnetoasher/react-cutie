@@ -17,7 +17,7 @@ const Backpack = ({ size, color, mood, className }) => (
         <path id="pocket__shape-path" d={paths.pocketShapePath} />
         <path id="pocket__shape__shadow-path" d={paths.pocketShapeShadowPath} />
       </defs>
-      <g id="kawaii-backpack" transform="translate(0 -1)">
+      <g id="cutie-backpack" transform="translate(0 -1)">
         <g
           id="right-shoulder-strap"
           transform="matrix(-1 0 0 1 125.901 13.054)"

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import remcalc from 'remcalc';
 import Wave from '../common/Wave';
 import Text from '../common/Text';
-import icon from '../assets/images/kawaii-icon.svg';
+import icon from '../assets/images/cutie-icon.svg';
 import cloud from '../assets/images/cloud.svg';
 import shadow from '../assets/images/shadow.svg';
 import homeWave from '../assets/images/home-wave.svg';
@@ -29,7 +29,7 @@ const Section = styled.section`
   }
 `;
 
-const KawaiiIllustration = styled.div`
+const CutieIllustration = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
@@ -137,14 +137,14 @@ const Home = () => (
         <Col xs={12} lg={5}>
           <h1>Cute React SVG Components</h1>
           <Text>
-            React Kawaii is a library of cute illustrations that are easily
+            React Cutie is a library of cute illustrations that are easily
             customisable. They are ideal to give some cuteness and personality
             to your ReactJS application. Just pick an illustration and set the
             mood and it's done!
           </Text>
         </Col>
         <Col xs={12} lg={7}>
-          <KawaiiIllustration>
+          <CutieIllustration>
             <Plx className="shadow" parallaxData={ShadowAnim}>
               <img src={shadow} />
             </Plx>
@@ -157,7 +157,7 @@ const Home = () => (
             <Plx className="icon" parallaxData={IconAnim}>
               <img src={icon} />
             </Plx>
-          </KawaiiIllustration>
+          </CutieIllustration>
         </Col>
       </Row>
     </Grid>

@@ -3,12 +3,12 @@ const MiniHtmlWebpackPlugin = require('mini-html-webpack-plugin');
 const { generateCSSReferences, generateJSReferences } = MiniHtmlWebpackPlugin;
 
 module.exports = {
-  title: 'React Kawaii',
+  title: 'React Cutie',
   pagePerSection: true,
   sections: [
     {
-      name: 'React Kawaii',
-      content: 'docs/ReactKawaii.md',
+      name: 'React Cutie',
+      content: 'docs/ReactCutie.md',
       description: 'Welcome'
     },
     {
@@ -25,7 +25,7 @@ module.exports = {
   skipComponentsWithoutExample: true,
   getComponentPathLine: pathname => {
     const { name } = path.parse(pathname);
-    return `import { ${name} } from 'react-kawaii'`;
+    return `import { ${name} } from 'react-cutie'`;
   },
   template: {
     head: {
@@ -68,6 +68,6 @@ module.exports = {
       'styleguide/components/IsolateButton'
     )
   },
-  styleguideDir: 'build/react-kawaii',
+  styleguideDir: 'build/react-cutie',
   serverPort: 8210
 };

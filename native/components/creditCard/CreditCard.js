@@ -15,17 +15,17 @@ const CreditCard = ({ size, color, mood, className }) => (
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      <G id="kawaii-creditCard">
-        <G id="kawaii-creditCard__body" fillRule="nonzero">
-          <Path d={paths.shape} id="kawaii-creditCard__shape" fill={color} />
+      <G id="cutie-creditCard">
+        <G id="cutie-creditCard__body" fillRule="nonzero">
+          <Path d={paths.shape} id="cutie-creditCard__shape" fill={color} />
           <Path
             d={paths.shadow}
-            id="kawaii-creditCard__shadow"
+            id="cutie-creditCard__shadow"
             fill="#000"
             opacity=".1"
           />
           <Path
-            id="kawaii-creditCard__stripe"
+            id="cutie-creditCard__stripe"
             fill="#000"
             d="M0 17h198v27H0z"
           />

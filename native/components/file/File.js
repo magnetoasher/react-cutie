@@ -15,17 +15,17 @@ const File = ({ size, color, mood, className }) => (
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      <G id="kawaii-file">
-        <G id="kawaii-file__body" fillRule="nonzero">
-          <Path d={paths.shape} id="kawaii-file__shape" fill={color} />
+      <G id="cutie-file">
+        <G id="cutie-file__body" fillRule="nonzero">
+          <Path d={paths.shape} id="cutie-file__shape" fill={color} />
           <Path
             d={paths.shadow}
-            id="kawaii-file__shadow"
+            id="cutie-file__shadow"
             fill="#000"
             opacity=".1"
           />
           <Path
-            id="kawaii-file__fold"
+            id="cutie-file__fold"
             fill="#000"
             opacity=".2"
             d="M70.1445,0 L70.1445,22.641 C70.1445,29.387 75.6135,34.855 82.3595,34.855 L104.9995,34.855 L70.1445,0"

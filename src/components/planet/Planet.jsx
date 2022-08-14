@@ -16,27 +16,27 @@ const Planet = ({ size, color, mood, className }) => (
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
       <defs>
-        <path d={paths.shape} id="kawaii-planet__shape--path" />
-        <path d={paths.shadow} id="kawaii-planet__shadow--path" />
+        <path d={paths.shape} id="cutie-planet__shape--path" />
+        <path d={paths.shadow} id="cutie-planet__shadow--path" />
       </defs>
-      <g id="kawaii-planet">
-        <g id="kawaii-planet__body">
+      <g id="cutie-planet">
+        <g id="cutie-planet__body">
           <mask id="mask-2" fill="#fff">
-            <use xlinkHref="#kawaii-planet__shape--path" />
+            <use xlinkHref="#cutie-planet__shape--path" />
           </mask>
           <use
-            id="kawaii-planet__shape"
+            id="cutie-planet__shape"
             fill={color}
-            xlinkHref="#kawaii-planet__shape--path"
+            xlinkHref="#cutie-planet__shape--path"
           />
           <mask id="mask-4" fill="#fff">
-            <use xlinkHref="#kawaii-planet__shadow--path" />
+            <use xlinkHref="#cutie-planet__shadow--path" />
           </mask>
           <use
-            id="kawaii-planet__shadow"
+            id="cutie-planet__shadow"
             fill="#000000"
             opacity=".1"
-            xlinkHref="#kawaii-planet__shadow--path"
+            xlinkHref="#cutie-planet__shadow--path"
           />
         </g>
         <Face
